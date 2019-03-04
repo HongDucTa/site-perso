@@ -1,10 +1,25 @@
 .root
 {
-    background-image: linear-gradient(to right,#00216a,#e4e5e6);
+    background-color: gold;
 }
 
 .container
 {
+    background-color: gold;
+}
+
+.container
+{
+    color: black;
+}
+
+img
+{
+    width: inherit;
+}
+
+.row
+{
     text-align: center;
-    color: white;
+    font-size: 1.3em;
 }

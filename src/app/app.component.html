@@ -1,14 +1,28 @@
 <app-header></app-header>
-
-<div class="container">
-  <div class="row">
-    <div class="col-sm">
-      HELLO
-    </div>
-    <div class="col-sm">
-      HELLO
+<div id="menu">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm">
+        <button id="btn-home" type="button" class="btn btn-dark btn-block" (click)="Home()">Home</button>
+      </div>
+      <div class="col-sm">
+        <button id="btn-formation" type="button" class="btn btn-dark btn-block" (click)="Formation()">Formation</button>
+      </div>
+      <div class="col-sm">
+        <button id="btn-projets" type="button" class="btn btn-dark btn-block" (click)="Projets()">Projets</button>
+      </div>
+      <div class="col-sm">
+        <button id="btn-contact" type="button" class="btn btn-dark btn-block" (click)="Contact()">Contact</button>
+      </div>
     </div>
   </div>
+</div>
+
+<div id="content">
+  <app-home></app-home>
+  <app-formation></app-formation>
+  <app-projets></app-projets>
+  <app-contact></app-contact>
 </div>
 
 <router-outlet></router-outlet>
