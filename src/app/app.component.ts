@@ -10,8 +10,6 @@ import { cleanSession } from 'selenium-webdriver/safari';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'mon site';
-
   Clean(): void
   {
     $("app-home").hide();
@@ -42,6 +40,11 @@ export class AppComponent {
   {
     this.Clean();
     $("app-contact").show();
+  }
+
+  ngOnInit()
+  {
+    this.Home();
   }
 
 }
