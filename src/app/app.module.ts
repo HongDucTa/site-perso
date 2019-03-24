@@ -12,8 +12,6 @@ import { ProjetsComponent } from './projets/projets.component';
 import { ContactComponent } from './contact/contact.component';
 import { CvComponent } from './cv/cv.component';
 
-import { PdfViewerComponent } from 'ng2-pdf-viewer';
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +21,6 @@ import { PdfViewerComponent } from 'ng2-pdf-viewer';
     ProjetsComponent,
     ContactComponent,
     CvComponent,
-    PdfViewerComponent
   ],
   imports: [
     BrowserModule,
