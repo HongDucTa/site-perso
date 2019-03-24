@@ -16,6 +16,7 @@ export class AppComponent {
     $("app-formation").hide();
     $("app-projets").hide();
     $("app-contact").hide();
+    $("app-cv").hide();
   }
 
   Home(): void
@@ -40,6 +41,12 @@ export class AppComponent {
   {
     this.Clean();
     $("app-contact").show();
+  }
+
+  CV(): void
+  {
+    this.Clean();
+    $("app-cv").show();
   }
 
   ngOnInit()

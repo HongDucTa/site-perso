@@ -10,6 +10,9 @@ import { HomeComponent } from './home/home.component';
 import { FormationComponent } from './formation/formation.component';
 import { ProjetsComponent } from './projets/projets.component';
 import { ContactComponent } from './contact/contact.component';
+import { CvComponent } from './cv/cv.component';
+
+import { PdfViewerComponent } from 'ng2-pdf-viewer';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,9 @@ import { ContactComponent } from './contact/contact.component';
     HomeComponent,
     FormationComponent,
     ProjetsComponent,
-    ContactComponent
+    ContactComponent,
+    CvComponent,
+    PdfViewerComponent
   ],
   imports: [
     BrowserModule,
